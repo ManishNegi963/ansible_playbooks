@@ -1,0 +1,12 @@
+[servers]
+server_1 ansible_host=44.205.252.25
+server_2 ansible_host=52.87.178.158
+
+
+[prod]
+server_3 ansible_host=54.162.85.185
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/home/ubuntu/keys/django_key_pair.pem
